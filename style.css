@@ -1,0 +1,29 @@
+svg {
+  margin: 0 auto;
+  display: block;
+}
+
+.arc {
+  stroke: black;
+}
+
+.legend {
+  width: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.legend__month {
+  padding: 0;
+  margin: 3px 0;
+  width: 50px;
+  font-size: small;
+}
+
+.pick-year {
+  display: flex;
+  justify-content: center;
+}
+.pick-year__text {
+  margin-right: 20px;
+}
