@@ -2,9 +2,12 @@ const width = 500;
 const height = 500;
 const padding = 20;
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+const clrArr = [];
 const colorScale = d3.scaleOrdinal()
                 .domain(months)
                 .range(d3.schemeCategory20);
+
+
 
 //Creating the legend
 months.forEach(month => d3.select(".legend")
